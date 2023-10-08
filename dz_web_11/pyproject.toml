@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hw-11-web-master"
+version = "0.1.0"
+description = "1"
+authors = ["Andriy <127453425+Andriy22226@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = {extras = ["email"], version = "^2.4.2"}
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+sqlalchemy = "^2.0.21"
+psycopg2 = "^2.9.9"
+alembic = "^1.12.0"
+pydantic-extra-types = "^2.1.0"
+phonenumbers = "^8.13.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
